@@ -47,6 +47,7 @@ It's estimated that the out of sample error would reflect the Kappa statistic of
 Variable Importance
 
 print(plot(varImp(model.rf, scale = FALSE)))
+
 Conclusion
 
 The random forest algorithm appears to perform very well for predicting activities from accelerometers measurements.
